@@ -19,7 +19,7 @@ fs.readFile('public/index.html', (err,data) => {
     if(err) {
         console.error(err)
         return
-    }
+    };
     data = data;
 });
 // Define a const `server` as an arrow function using http.createServer. 
